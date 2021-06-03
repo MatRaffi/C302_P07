@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    -<TableLayout tools:context=".CreateContactActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 2 columns -->
+
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="5dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="First Name" android:textSize="20sp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:inputType="textPersonName" android:layout_weight="1" android:id="@+id/etFirstName"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="5dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Last Name" android:textSize="20sp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:inputType="textPersonName" android:layout_weight="1" android:id="@+id/etLastName"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="5dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mobile" android:textSize="20sp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="20sp" android:inputType="text" android:layout_weight="1" android:id="@+id/etMobile"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="5dip">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Create Contact" android:id="@+id/btnCreate"/>
+
+</TableRow>
+
+</TableLayout>
